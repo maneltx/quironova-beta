@@ -1,13 +1,13 @@
 import HeroSection from '@/components/sections/HeroSection';
 import FeaturesSection from '@/components/sections/FeaturesSection';
-import PhilosophySection from '@/components/sections/PhilosophySection';
+// Importaremos PhilosophySection y NaoAIChat en el futuro
 
 export default function HomePage() {
   return (
     <div>
       <HeroSection />
       <FeaturesSection />
-      <PhilosophySection />
-    </div>
+      {/* Aquí irán las otras secciones cuando las creemos o reparemos */}
+      </div>
   );
 }
